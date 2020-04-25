@@ -1,0 +1,6 @@
+discount: 0.90
+values: reward
+states: 162
+actions: 50
+observations: 6
+start include: 8 44 116 152 
