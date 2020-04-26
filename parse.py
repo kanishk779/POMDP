@@ -1,6 +1,6 @@
 def parseBeliefs(line):
     try:
-        belief = [float(line[0]), float(line[1]), float(line[2]), float(line[3])]
+        belief = [float(line[0]), float(line[1]), float(line[2]), float(line[3]), float(line[4])]
         return belief
     except:
         raise ValueError('The values of beliefs should be of type float')
